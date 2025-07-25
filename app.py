@@ -135,7 +135,11 @@ content_input = st.text_area(
     help="Edit the content text before summarizing"
 )
 
-if st.button("Summarize!"):
+col1, col2, col3 = st.columns([2, 2, 1])
+with col2:
+    summarize_button = st.button("Summarize!")
+
+if summarize_button:
     with st.spinner("Summarizing..."):
         summary = summarize(
             content_input,
