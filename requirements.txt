@@ -42,7 +42,6 @@ packaging==25.0
 pandas==2.3.1
 peft==0.16.0
 pillow==11.3.0
-pip==25.2
 propcache==0.3.1
 protobuf==6.31.1
 psutil==7.0.0
@@ -60,7 +59,6 @@ regex==2025.7.34
 requests==2.32.4
 rpds-py==0.26.0
 safetensors==0.5.3
-setuptools==80.9.0
 six==1.17.0
 smmap==5.0.2
 streamlit==1.47.1
@@ -76,8 +74,6 @@ typing_extensions==4.14.1
 tzdata==2025.2
 urllib3==2.5.0
 watchdog==6.0.0
-wheel==0.45.1
-win_inet_pton==1.1.0
 xxhash==3.5.0
 yarl==1.20.1
 zipp==3.23.0
