@@ -72,7 +72,7 @@ DATA_DIR = "data"
 IMAGES_DIR = os.path.join(DATA_DIR, "thumbnails")
 TEXTS_DIR = os.path.join(DATA_DIR, "texts")
 EXAMPLES_JSON = os.path.join(DATA_DIR, "examples.json")  
-MODEL_DIR = "models/model.pt"
+MODEL_DIR = os.path.join("models", "model.pt")
 
 st.set_page_config(page_title="Reddit post summarizer", layout="wide")
 st.markdown("<h1>Reddit post summarizer</h1>", unsafe_allow_html=True)
